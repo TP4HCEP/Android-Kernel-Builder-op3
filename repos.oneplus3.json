@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_oneplus_msm8996",
+      "name": "kernel_msm8996",
       "repo": "https://github.com/Akitlove/kernel_oneplus_msm8996",
       "branch": "eas",
       "device": "oneplus3-R",
@@ -36,8 +36,8 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
+      "use": false,
+      "release": false,
       "repo": "https://github.com/Akitlove/AnyKernel3",
       "branch": "op3t"
     }
