@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "kernel_msm8996",
       "repo": "https://github.com/Akitlove/kernel_oneplus_msm8996",
-      "branch": "lineage-18.1",
+      "branch": "lineage18.1-intelli-Thermal-3.0",
       "device": "oneplus3-R",
       "defconfig": "lineageos_oneplus3_defconfig"
     },
