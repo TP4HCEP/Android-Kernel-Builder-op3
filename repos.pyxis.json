@@ -5,7 +5,7 @@
       "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
       "branch": "lineage-19.1",
       "device": "pyxis",
-      "defconfig": "pyxis_defconfig"
+      "defconfig": "sdm670_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
