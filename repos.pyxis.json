@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "kernel_pyxis",
-      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
-      "branch": "lineage-19.1",
+      "repo": "https://github.com/TP4HCEP/RevengeOS",
+      "branch": "r11.0",
       "device": "pyxis",
-      "defconfig": "sdm670_defconfig"
+      "defconfig": "p_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
