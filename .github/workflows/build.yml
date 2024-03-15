@@ -160,7 +160,8 @@ jobs:
         run: |
           echo "PATH Variable: $PATH"
           make ${args}
-
+          make ${args} modules
+          
       - name: "💛 Upload Image"
         uses: actions/upload-artifact@v3
         env:
