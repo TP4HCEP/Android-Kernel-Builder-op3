@@ -45,46 +45,6 @@
       "release": true,
       "repo": "https://github.com/TP4HCEP/AnyKernel3",
       "branch": "master"
-    },
-  
-    "kernelSource": {
-      "name": "kernel_pyxis_google",
-      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
-      "branch": "lineage-19.1",
-      "device": "pyxis",
-      "defconfig": "sdm670_defconfig"
-    },
-    "withKernelSU": false,
-    "toolchains": [
-      {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas",
-        "binPath": []
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang",
-        "binPath": ["bin"]
-      }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
-      }
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/TP4HCEP/AnyKernel3",
-      "branch": "master"
     }
-  }  
+ }  
 ]
