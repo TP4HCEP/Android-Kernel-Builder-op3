@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "kernel_pyxis",
-      "repo": "https://github.com/TP4HCEP/los",
-      "branch": "20",
+      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
+      "branch": "lineage-20",
       "device": "pyxis",
-      "defconfig": "pyxis_defconfig"
+      "defconfig": "sdm670-perf_defconfig"
     },
 
     "withKernelSU": false,
@@ -46,11 +46,11 @@
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "kernel_pyxis",
+      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
+      "branch": "lineage-20",
+      "device": "pyxis",
+      "defconfig": "sdm670-perf_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
