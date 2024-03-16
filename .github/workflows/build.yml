@@ -23,6 +23,7 @@ jobs:
           echo "repos<<EOF" >> $GITHUB_OUTPUT
           jq -s '[.[][]]' repos*.json >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+          
       - name: "⏰ Set builddate"
         id: generate-builddate
         run: echo "builddate=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
