@@ -18,6 +18,7 @@
         "binPath": ["bin"]
       }
     ],
+
     "ccache": true,
     "params": {
       "ARCH": "arm64",
@@ -45,10 +46,9 @@
       "repo": "https://github.com/TP4HCEP/AnyKernel3",
       "branch": "master"
     }
-  }
-    {
+  
     "kernelSource": {
-      "name": "kernel_pyxis",
+      "name": "kernel_pyxis_google",
       "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm710",
       "branch": "lineage-19.1",
       "device": "pyxis",
@@ -86,4 +86,5 @@
       "repo": "https://github.com/TP4HCEP/AnyKernel3",
       "branch": "master"
     }
+  }  
 ]
