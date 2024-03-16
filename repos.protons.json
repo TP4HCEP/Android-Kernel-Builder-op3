@@ -45,7 +45,7 @@
       "release": true,
       "repo": "https://github.com/TP4HCEP/AnyKernel3",
       "branch": "master"
-    }
+    },
   
     "kernelSource": {
       "name": "kernel_pyxis_google",
