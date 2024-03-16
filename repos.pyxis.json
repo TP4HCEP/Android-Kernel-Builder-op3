@@ -32,7 +32,7 @@
         "HOSTCC": "clang13/clang/host/linux-x86/clang-r428724/bin/clang",
         "HOSTCXX": "clang13/clang/host/linux-x86/clang-r428724/bin/clang++",
         "LLVM_AR": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-ar",
-        "LLVM_DIS": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-dis",
+        "LLVM_DIS": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
