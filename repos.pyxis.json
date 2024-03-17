@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_pyxis",
+      "name": "kernel_pyxis_clang13",
       "repo": "https://github.com/TP4HCEP/los",
       "branch": "20",
       "device": "pyxis",
