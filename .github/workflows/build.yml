@@ -148,7 +148,9 @@ jobs:
          arch: ${{ steps.generate-args.outputs.ARCH }}
         run: |
               git clone https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/TP4HCEP/extra_tools -b TP4HCEP extra_tools
-              sed -i '1i obj-y += extra_tools/drivers/' drivers/Makefile
+              
+              sed -i '1i obj-y += ../extra_tools/drivers/' drivers/Makefile
+
               sed -i '2i source extra_tools/drivers/Kconfig' drivers/Kconfig
 
       - name: "👍 Make defconfig"
