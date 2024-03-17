@@ -210,6 +210,17 @@ jobs:
             cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz-dtb ./AnyKernel3/
           fi
 
+          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img" ]; then
+            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img ./AnyKernel3/
+          fi
+
+          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb" ]; then
+            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb ./AnyKernel3/
+          fi
+          
+          find "${{ env.OUT_DIR }}/" -type f -iname '*.gz-dtb' -exec cp {} ./AnyKernel3/ \;
+          find "${{ env.OUT_DIR }}/" -type f -iname '*.ko' -exec cp {} ./AnyKernel3/modules/system/lib/modules/ \;
+
           cd AnyKernel3/
           zip -q -r "${{ env.anykernel }}.zip" *
 
