@@ -230,6 +230,8 @@ jobs:
           fi
           
           find "${{ env.OUT_DIR }}/" -type f -iname '*.gz-dtb' -exec cp {} ./AnyKernel3/ \;
+          find "${{ env.OUT_DIR }}/" -type f -iname 'Image.gz' -exec cp {} ./AnyKernel3/ \;
+          find "${{ env.OUT_DIR }}/" -type f -iname '*.dtb' -exec cp {} ./AnyKernel3/ \;
           find "${{ env.OUT_DIR }}/" -type f -iname '*.ko' -exec cp {} ./AnyKernel3/modules/system/lib/modules/ \;
 
           cd AnyKernel3/
